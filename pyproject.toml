@@ -1,0 +1,20 @@
+[project]
+name = "vup"
+version = "0.1.0"
+description = "Projet Vinted de récupération de données"
+authors = [
+    { name = "Liboudou", email = "greentyy9@gmail.com" }
+]
+readme = "README.md"
+requires-python = "^3.11"
+dependencies = [
+    "python-dotenv >=1.0.0,<2.0.0"
+]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

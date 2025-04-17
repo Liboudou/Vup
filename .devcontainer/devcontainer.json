@@ -3,6 +3,11 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
+	"runArgs": [
+		"--memory=1g",   // Limiter la mémoire à 2 Go
+		"--cpus=2"       // Limiter les CPU à 2 cœurs
+	  ],
+	  
 
 	// 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
 	// "features": {},
@@ -10,8 +15,12 @@
 	// 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
+
 	// 👇 Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "",
+
+	"postCreateCommand": "poetry install",
+
 
 	// 👇 Configure tool-specific properties.
 	"customizations": {
