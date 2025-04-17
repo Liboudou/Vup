@@ -8,7 +8,18 @@ authors = [
 readme = "README.md"
 requires-python = "^3.11"
 dependencies = [
-    "python-dotenv >=1.0.0,<2.0.0"
+    "python-dotenv >=1.0.0,<2.0.0",
+    "requests",
+    "beautifulsoup4",
+    "pandas",
+    "fastapi",
+    "pydantic",
+    "alembic",
+    "asyncio",
+    "discord",
+    "nest_asyncio",
+    "playwright",
+    "nest_asyncio"
 ]
 
 [tool.poetry.group.dev.dependencies]

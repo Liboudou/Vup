@@ -1,0 +1,25 @@
+# Ignorer les fichiers d'environnement
+.env
+
+# Ignorer les fichiers de cache Python
+*.pyc
+*.pyo
+__pycache__
+
+# Ignorer les fichiers de configuration spécifiques à l'IDE
+.vscode/
+
+# Ignorer les environnements virtuels
+venv/
+.env/
+*.env
+
+# Ignorer les fichiers log
+*.log
+
+# Ignorer les fichiers de build
+build/
+dist/
+
+# Ignorer le fichier de configuration du cache de pytest
+.cache/
