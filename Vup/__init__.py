@@ -6,5 +6,5 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Initialiser des variables globales
-API_KEY = os.getenv("API_KEY")
-DEBUG_MODE = os.getenv("DEBUG")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CATALOG_URL = os.getenv("CATALOG_URL")
